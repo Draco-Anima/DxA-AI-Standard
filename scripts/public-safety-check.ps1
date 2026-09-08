@@ -26,6 +26,7 @@ foreach ($path in $files) {
     $allowed = $allowedExact -contains $path -or
         $path -like 'core/*' -or
         $path -like 'templates/*' -or
+        $path -like 'docs/*' -or
         $path -like 'projects/learning/*' -or
         $path -like 'scripts/public-safety-check.*' -or
         $path -like '.github/*'
