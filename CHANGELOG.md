@@ -4,7 +4,7 @@ Alle relevanten Änderungen an DxA-AI-Standard werden in dieser Datei dokumentie
 
 ## [Unreleased]
 
-## [0.1.0] - 2026-09-08
+## [1.0.0] - 2026-09-08
 
 ### Added
 
