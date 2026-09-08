@@ -22,7 +22,7 @@ fi
 
 while IFS= read -r path; do
   case "$path" in
-    .gitignore|README.md|LICENSE|CHANGELOG.md|CONTRIBUTING.md|SECURITY.md|PUBLICATION.md|core/*|templates/*|projects/learning/*|scripts/public-safety-check.sh|.github/*|.github/**/*)
+    .gitignore|README.md|LICENSE|CHANGELOG.md|CONTRIBUTING.md|SECURITY.md|PUBLICATION.md|core/*|templates/*|projects/learning/*|scripts/public-safety-check.*|.github/*|.github/**/*)
       ;;
     *)
       error "unexpected tracked path: $path"
