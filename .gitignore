@@ -1,0 +1,12 @@
+# Private user configuration
+/USER.md
+
+# Temporary persistent work state
+.work/
+**/.work/
+
+# Common local/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
